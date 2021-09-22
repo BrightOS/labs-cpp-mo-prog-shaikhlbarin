@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled main.cpp first.h second.h color.h)
+add_executable(untitled main.cpp first.h second.h color.h third.h)

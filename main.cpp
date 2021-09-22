@@ -1,5 +1,6 @@
 #include "first.h"
 #include "second.h"
+#include "third.h"
 #include <cstdio>
 
 using namespace std;
@@ -15,6 +16,7 @@ int main() {
         set_color(7);
         printf("1. 10 программ.\n");
         printf("2. Визуализация трёх алгоритмов сортировки.\n");
+        printf("3. Битовые операции.\n");
         printf("0. Выход из программы.\n");
         int a = 0;
 
@@ -42,6 +44,9 @@ int main() {
 
                 (new Second())->start();
                 break;
+            case 3:
+                printf("Битовые операции.\n\n");
+                (new Third())->start();
             default:
                 break;
         }
